@@ -1,0 +1,221 @@
+body {
+	margin: 0;
+}
+
+.wrapper {
+	font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+
+.Head {
+    height: 90px;
+    background-color: white;
+    text-align: center;
+    border-bottom-style: solid;
+    border-bottom-color: #cccccc;
+    width: 100%;
+
+}
+
+.Your-Name {
+	margin-left: 90px;
+    float: left;
+    background-color: #4aaaa5;
+    height: 90px;
+    width: 200px;
+    text-align: center;
+    color: white;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    line-height: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+a:hover {
+  color: #4aaaa5;
+  image-rendering: ;
+}
+
+a {
+	color: #777777;
+    text-decoration: none;
+}
+
+.About {
+    float: right;
+    width: 100px;
+    color: #777777;
+    font-size: large;
+    height: 20px;
+    margin-top: 40px;
+    border-right-color: #cccccc;
+    border-right-style: solid;
+   
+}
+
+.Portfolio {
+    float: right;
+    width: 100px;
+    color: #777777;
+    font-size:large;
+   	height: 20px;
+    margin-top: 40px;
+    border-right-color: #cccccc;
+    border-right-style: solid;
+}
+
+.Contact {
+    float: right;
+    width: 100px;
+    margin-right: 230px;
+    color: #777777;
+    font-size:large;
+    height: 100px;
+    line-height: 100px;
+
+}
+
+.Body {
+	background-image: url("../images/intersection.png");
+	height: 600px;
+	width: 100%;
+}
+
+.Main {
+	width: 590px;
+    height: 500px;
+    position: absolute;
+    margin-left: 90px;
+    margin-top: 50px;
+    background-color: white;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-style: solid;
+    border-color: #dddddd;
+    color:#777777;
+}
+
+h2 {
+	width: 650px;
+    color: #4aaaa5;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    height: 100px;
+    line-height: 115px;
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+    font-size: 200%;
+
+}
+
+#Me {
+	height: 200px;
+	width: 200px;
+	float: left;
+    padding-top: 10px;
+    padding-right: 10px;
+}
+
+
+.container {
+	width: 1300px;
+    height: 90px;
+}
+
+.sidebar {
+	width: 210px;
+    height: 200px;
+    background-color: white;
+    clear: both;
+    position: absolute;
+    margin-left: 790px;
+    border-style: solid;
+    border-color: #dddddd;
+    margin-top: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+h3 {
+    width: 210px;
+    color: #4aaaa5;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    height: 70px;
+    line-height: 80px;
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+    font-size: 120%;
+    text-align: center;
+
+}
+
+#github {
+	width: 60px;
+	height: 60px;
+	float: left;
+}
+
+#github:hover {
+	opacity: 0.5;
+	filter: alpha(opacity=30);
+}
+
+#linkedin {
+	width: 60px;
+	height: 60px;
+	margin-left: 15px;
+}
+
+#linkedin:hover {
+	opacity: 0.5;
+	filter: alpha(opacity=30);
+}
+
+#stackoverflow {
+	width: 60px;
+	height: 60px;
+	float: right;
+}
+
+#stackoverflow:hover {
+	opacity: 0.5;
+	filter: alpha(opacity=30);
+}
+
+footer {
+	text-align: center;
+	color: #777777;
+	background-color: #666666;
+	height: 90px;
+	line-height: 90px;
+    font-weight: bold;
+
+}
+
+.bottem {
+	width: 100%;
+    height: 10px;
+    background-color: #4aaaa5;
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    font-weight: lighter;
+}
+
+.form {
+	display: block;
+	margin-right: 25px;
+	margin-top: 30px;
+}
+
+
