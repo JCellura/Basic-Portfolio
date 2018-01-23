@@ -322,7 +322,8 @@ textarea {
   line-height: 30px;
   margin-bottom: 0;
   font-weight: 300;
-  font-size: 175%;
+  font-size: 175%
+  height: 50px;
 }
 
 .bio-image {
