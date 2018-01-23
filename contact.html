@@ -41,41 +41,28 @@
 
 		<div class="Body" style="height:650px">
 
-			<section class="Main" style="height: 550px">
+			<section class="Main" style="height: auto;">
 
 				<h2>Contact Me</h2>
 
 				<hr width="100%" size="3" align="center" color="#cccccc">
 
-				<form style="margin-right: 20px;">
-				  <div class="form-group" style="margin-bottom: 1rem;">
-
-				    <label for="formGroupExampleInput" style="
-    						display: inline-block;
-    						margin-bottom: .5rem;
-    						font-size: large;"
-				    >Name</label>
-
-				    <input type="text" class="form-control" id="formGroupExampleInput" placeholder="John Smith">
-
-				  </div>
-				  <div class="form-group">
-				    <label for="formGroupExampleInput2" style="
-							    display: inline-block;
-    							margin-bottom: .5rem;
-    							font-size: large;"
-				    >Email</label>
-				    <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="example@gmail.com">
-				  </div>
-				  <div class="form-group">
-				    <label for="formGroupExampleInput2" style="
-							    display: inline-block;
-    							margin-bottom: .5rem;
-    							font-size: large;
-    							margin-top: 1rem;"
-				    >Message</label>
-				    <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="" style="height:130px;">
-				  </div>
+				<form id=contact-form>
+					<ul>
+						<li>
+							<label for="name">Name</label>
+							<input type="text" name="name" id="name" placeholder="John Smith" required="required">
+						</li>
+						<li>
+							<label for="email">Email</label>
+							<input type="text" name="email" id="email" placeholder="example@gmail.com" required="required">
+						</li>
+							<label for="message">Message</label>
+							<textarea id="message" name="message" required="required"></textarea>
+						</li>
+						<input type="submit"  id="submit" value="Submit">
+					</ul>
+					
 				</form>
 
 			</section>
@@ -99,10 +86,7 @@
 
 	</body>
 
-	<div class="bottem">
-	</div>
-
-	<footer>
+	<div id="footer">
 		@Copyright2018 Joe Cellura
 	</footer>
 
