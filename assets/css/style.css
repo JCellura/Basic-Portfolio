@@ -17,7 +17,23 @@ body {
     border-bottom-color: #cccccc;
     border-bottom-width: 2px;
     width: 100%;
+}
 
+.Head:hover {
+	background-color: #4aaaa5
+}
+
+.Head:hover a{
+	color: white;
+}
+
+.Head:hover .Your-Name {
+	border-right-style: solid;
+	border-left-style: solid;
+	border-right-color: white;
+	border-left-color: white;
+	border-right-width: 1px;
+	border-left-width: 1px;
 }
 
 .Your-Name {
@@ -36,14 +52,15 @@ body {
     font-size: xx-large;
 }
 
-a:hover {
-  color: #4aaaa5;
-  image-rendering: ;
-}
+
 
 a {
 	color: #777777;
     text-decoration: none;
+}
+
+a:hover {
+	color: blue;
 }
 
 .About {
@@ -185,7 +202,7 @@ h3 {
 
 #github:hover {
 	opacity: 0.5;
-	filter: alpha(opacity=30);
+	/*filter: alpha(opacity=30);*/
 }
 
 #linkedin {
@@ -196,7 +213,7 @@ h3 {
 
 #linkedin:hover {
 	opacity: 0.5;
-	filter: alpha(opacity=30);
+	/*filter: alpha(opacity=30);*/
 }
 
 #stackoverflow {
@@ -207,7 +224,7 @@ h3 {
 
 #stackoverflow:hover {
 	opacity: 0.5;
-	filter: alpha(opacity=30);
+	/*filter: alpha(opacity=30);*/
 }
 
 #footer {
@@ -231,7 +248,7 @@ h3 {
     background-color: #4aaaa5;
 }
 
-.form-control {
+/* .form-control {
     display: block;
     width: 100%;
     padding: .375rem .75rem;
@@ -244,7 +261,7 @@ h3 {
     border-radius: .25rem;
     transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
     font-weight: lighter;
-}
+} */
 
 #contact-form {
 	display: block;
@@ -294,7 +311,7 @@ textarea {
 }
 
 .portf {
-  width: 274px;
+  width: 275px;
   position: relative;
   float: left;
   margin: 20px 0px 25px;
@@ -318,7 +335,7 @@ textarea {
   position: absolute;
   bottom: 20px;
   padding: 15px;
-  width: 244px;
+  width: 245px;
   line-height: 30px;
   margin-bottom: 0;
   font-weight: 300;
@@ -326,11 +343,11 @@ textarea {
   height: 50px;
 }
 
-.bio-image {
+/* .bio-image {
   width: 200px;
   height: auto;
   margin: 10px 25px 0px 0px;
   float: left;
-}
+} */
 
 
